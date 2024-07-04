@@ -14,8 +14,8 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
-        val webButton=findViewById<CardView>(R.id.cardweb)
-        val cameraButton=findViewById<CardView>(R.id.cardcamera)
+        val webButton=findViewById<TextView>(R.id.textView)
+        val cameraButton=findViewById<TextView>(R.id.textView1)
 
         webButton.setOnClickListener {
             val intent=Intent(Intent.ACTION_VIEW)
