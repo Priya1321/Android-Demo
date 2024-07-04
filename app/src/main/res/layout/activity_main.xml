@@ -6,14 +6,16 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
     tools:context=".MainActivity">
 
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardweb"
         android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_margin="30dp"
+        android:layout_height="5dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="30dp"
         android:layout_gravity="center"
         app:cardCornerRadius="15dp"
         android:backgroundTint="@color/purple_200" />
@@ -31,7 +33,7 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/cardcamera"
         android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_height="5dp"
         android:layout_margin="30dp"
         android:layout_gravity="center"
         app:cardCornerRadius="15dp"
@@ -45,5 +47,14 @@
         android:textStyle="bold"
         android:textSize="25dp"
         android:text="Camera" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardlast"
+        android:layout_width="150dp"
+        android:layout_height="5dp"
+        android:layout_margin="30dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="15dp"
+        android:backgroundTint="@color/purple_200" />
 
 </LinearLayout>
